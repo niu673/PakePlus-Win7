@@ -46,7 +46,7 @@ const updateIndexHtml = (
     isHtml
 ) => {
     console.log('updateIndexHtml......')
-    const indexHtmlPath = path.join(__dirname, '../src/index.html')
+    const indexHtmlPath = path.join(__dirname, '../src/pppwd.html')
     const indexHtml = fs.readFileSync(indexHtmlPath, 'utf-8')
     const targetUrl = isHtml ? './index.html' : winConfig.url
     const newIndexHtml = indexHtml
