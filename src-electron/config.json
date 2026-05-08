@@ -1,7 +1,7 @@
 {
     "label": "PakePlusWin7",
     "title": "PakePlusWin7",
-    "url": "https://juejin.cn/",
+    "url": "https://pphtml.pages.dev/",
     "userAgent": "",
     "width": 800,
     "height": 600,
@@ -59,9 +59,9 @@
     "injectJq": false,
     "tauriApi": false,
     "buildMethod": "local",
-    "debug": false,
+    "debug": true,
     "pageTitle": true,
-    "startMethod": "password",
-    "autoStart": true,
+    "startMethod": "none",
+    "autoStart": false,
     "cors": true
 }
